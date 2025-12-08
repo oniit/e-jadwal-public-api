@@ -47,3 +47,5 @@ app.get('/api/assets', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Public read-only API running on port ${PORT}`);
 });
+
+module.exports = app;
